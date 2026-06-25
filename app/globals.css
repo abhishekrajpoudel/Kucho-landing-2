@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-sans), sans-serif;
+  --font-display: var(--font-display), sans-serif;
+  --font-mono: var(--font-mono), monospace;
+  
+  --color-brand-dark: #0d3427;
+  --color-brand-dark-light: #124333;
+  --color-brand-lime: #b6f123;
+  --color-brand-lime-hover: #a1d71c;
+  --color-brand-light: #fafbfa;
+  --color-brand-accent: #f0fdf4;
+}
+
+/* Custom scrollbar and aesthetics */
+::selection {
+  background-color: #b6f123;
+  color: #0d3427;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fafbfa;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Custom glowing effects */
+.glow-lime {
+  box-shadow: 0 0 20px rgba(182, 241, 35, 0.15);
+}
+.glow-lime-strong {
+  box-shadow: 0 0 30px rgba(182, 241, 35, 0.4);
+}

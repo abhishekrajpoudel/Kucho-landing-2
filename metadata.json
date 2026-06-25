@@ -1,0 +1,6 @@
+{
+  "name": "Bugfree Pest Control",
+  "description": "Safe, smart, and sustainable advance pest control services for safe and hygienic environments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
